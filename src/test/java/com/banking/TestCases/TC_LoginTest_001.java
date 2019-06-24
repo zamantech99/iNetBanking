@@ -8,6 +8,7 @@ import com.banking.PageObjects.LoginPage;
 
 public class TC_LoginTest_001 extends BaseClass{
 
+
 	static LoginPage loginpage;  	
 	
 	

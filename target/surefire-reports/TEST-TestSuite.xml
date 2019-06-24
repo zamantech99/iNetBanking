@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="1.399" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="2.275" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="JOB_NAME" value="_BankingProject"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="7d89bf0cbe61a25a"/>
+    <property name="JENKINS_HOME" value="C:\Users\zaman\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="c5bf0ae1635ca5e8"/>
     <property name="POM_ARTIFACTID" value="zBankingProject"/>
     <property name="os.name" value="Windows 10"/>
     <property name="RegionCode" value="NA"/>
@@ -16,37 +16,39 @@
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="POM_DISPLAYNAME" value="zBankingProject"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="TEMP" value="C:\Users\zaman\AppData\Local\Temp"/>
     <property name="NODE_LABELS" value="master"/>
     <property name="java.runtime.version" value="11.0.1+13-LTS"/>
     <property name="ST_INSTALL_PATH" value="C:\Program Files (x86)\HP\Unified Functional Testing\"/>
-    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
-    <property name="user.name" value="DESKTOP-7A3HSGR$"/>
+    <property name="user.name" value="zaman"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="OnlineServices" value="Online Services"/>
+    <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="_BankingProject"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/_BankingProject/6/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#6"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/_BankingProject/2/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="OneDrive" value="C:\Users\zaman\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="LOCALAPPDATA" value="C:\Users\zaman\AppData\Local"/>
     <property name="java.version" value="11.0.1"/>
     <property name="user.timezone" value="America/New_York"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="USERNAME" value="DESKTOP-7A3HSGR$"/>
+    <property name="USERNAME" value="zaman"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="NODE_NAME" value="master"/>
-    <property name="BUILD_ID" value="6"/>
+    <property name="BUILD_ID" value="2"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="maven.conf" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="maven.conf" value="C:\Users\zaman\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\myTest\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
     <property name="file.separator" value="\"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="55.0"/>
+    <property name="=::" value="::\"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
     <property name="user.country" value="US"/>
     <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
@@ -55,88 +57,92 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
     <property name="platformcode" value="KV"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/_BankingProject/6/display/redirect"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/_BankingProject/2/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
-    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="TMP" value="C:\Users\zaman\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="11.0.1+13-LTS"/>
     <property name="user.variant" value=""/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/_BankingProject/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-7A3HSGR"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.1"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\zaman"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="POM_PACKAGING" value="jar"/>
-    <property name="SERVICE_ID" value="Jenkins"/>
     <property name="COMPUTERNAME" value="DESKTOP-7A3HSGR"/>
     <property name="user.script" value=""/>
     <property name="asl.log" value="Destination=file"/>
     <property name="POM_GROUPID" value="zBankingProject"/>
-    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.home" value="C:\Users\zaman"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-_BankingProject-6"/>
-    <property name="JENKINS_SERVER_COOKIE" value="7d89bf0cbe61a25a"/>
+    <property name="BUILD_TAG" value="jenkins-_BankingProject-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="c5bf0ae1635ca5e8"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
     <property name="java.version.date" value="2018-10-16"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="USERPROFILE" value="C:\Users\zaman"/>
     <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk-11.0.1/bin;C:\Program Files\Java\jdk-11.0.1/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Users\zaman\Downloads\Maven\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\zaman\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\myTest/bin;C:\Program Files\Java\jdk-11.0.1/bin;C:\Program Files\Java\jdk-11.0.1/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\zaman\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Users\zaman\Downloads\Maven\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\zaman\AppData\Local\Microsoft\WindowsApps;;C:\Users\zaman\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="APPDATA" value="C:\Users\zaman\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
-    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 2966"/>
-    <property name="Path" value="C:\Program Files\Java\jdk-11.0.1/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Users\zaman\Downloads\Maven\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="maven.home" value="C:\Users\zaman\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\myTest"/>
+    <property name="java.class.path" value="C:\Users\zaman\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\zaman\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\myTest\boot\plexus-classworlds-2.6.0.jar;C:\Users\zaman\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\myTest/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\zaman\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\myTest C:\Users\zaman\.jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Users\zaman\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\zaman\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 7027"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-11.0.1/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\zaman\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Users\zaman\Downloads\Maven\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\zaman\AppData\Local\Microsoft\WindowsApps;;C:\Users\zaman\AppData\Local\Programs\Microsoft VS Code\bin"/>
     <property name="jdk.debug" value="release"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PATH+JDK" value="C:\Program Files\Java\jdk-11.0.1/bin"/>
+    <property name="SESSIONNAME" value="Console"/>
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 9, GenuineIntel"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="MSJAVA_ENABLE_MONITORS" value="1"/>
-    <property name="M2_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="M2_HOME" value="C:\Users\zaman\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\myTest"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="OS" value="Windows_NT"/>
-    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
-    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="=D:" value="d:\Selenium Project"/>
+    <property name="java.io.tmpdir" value="C:\Users\zaman\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\zaman\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\zaman\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\myTest/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/_BankingProject/6/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/_BankingProject/2/"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="user.dir" value="D:\Selenium Project\zBankingProject"/>
     <property name="JOB_URL" value="http://localhost:8080/job/_BankingProject/"/>
-    <property name="USERDOMAIN" value="WORKGROUP"/>
-    <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-7A3HSGR"/>
+    <property name="USERDOMAIN" value="DESKTOP-7A3HSGR"/>
+    <property name="MAVEN_HOME" value="C:\Users\zaman\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\myTest"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="BUILD_NUMBER" value="6"/>
+    <property name="BUILD_NUMBER" value="2"/>
     <property name="PROCESSOR_REVISION" value="8e09"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\zaman\Documents"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\_BankingProject"/>
-    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
-    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="maven3.interceptor" value="C:\Users\zaman\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE" value="C:\Users\zaman\.jenkins\workspace\_BankingProject"/>
+    <property name="maven3.interceptor.common" value="C:\Users\zaman\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
     <property name="java.specification.version" value="11"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="java.vendor.version" value="18.9"/>
   </properties>
-  <testcase name="validLoginTest" classname="com.banking.TestCases.TC_LoginTest_001" time="1.392"/>
-  <testcase name="verifyPageTitle" classname="com.banking.TestCases.TC_LoginTest_001" time="0.007"/>
+  <testcase name="validLoginTest" classname="com.banking.TestCases.TC_LoginTest_001" time="2.264"/>
+  <testcase name="verifyPageTitle" classname="com.banking.TestCases.TC_LoginTest_001" time="0.011"/>
 </testsuite>

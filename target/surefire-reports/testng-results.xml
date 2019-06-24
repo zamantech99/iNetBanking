@@ -2,24 +2,31 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-24T05:34:14Z" name="Suite" finished-at="2019-06-24T05:34:25Z" duration-ms="10971">
+  <suite started-at="2019-06-24T20:08:55Z" name="Suite" finished-at="2019-06-24T20:09:09Z" duration-ms="13413">
     <groups>
     </groups>
-    <test started-at="2019-06-24T05:34:14Z" name="TestNG" finished-at="2019-06-24T05:34:25Z" duration-ms="10971">
+    <test started-at="2019-06-24T20:08:55Z" name="TestNG" finished-at="2019-06-24T20:09:09Z" duration-ms="13413">
       <class name="com.banking.TestCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.banking.TestCases.TC_LoginTest_001@4550bb58]" started-at="2019-06-24T05:34:14Z" name="setup" finished-at="2019-06-24T05:34:19Z" duration-ms="5875" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.banking.TestCases.TC_LoginTest_001@6069db50]" started-at="2019-06-24T20:08:55Z" name="setup" finished-at="2019-06-24T20:09:03Z" duration-ms="7383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest()[pri:0, instance:com.banking.TestCases.TC_LoginTest_001@4550bb58]" started-at="2019-06-24T05:34:19Z" name="validLoginTest" finished-at="2019-06-24T05:34:21Z" duration-ms="1391" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:com.banking.TestCases.TC_LoginTest_001@6069db50]" started-at="2019-06-24T20:09:03Z" name="validLoginTest" finished-at="2019-06-24T20:09:05Z" duration-ms="2265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:com.banking.TestCases.TC_LoginTest_001@4550bb58]" started-at="2019-06-24T05:34:21Z" name="verifyPageTitle" finished-at="2019-06-24T05:34:21Z" duration-ms="8" status="PASS">
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.banking.TestCases.TC_LoginTest_001@6069db50]" started-at="2019-06-24T20:09:05Z" name="verifyPageTitle" finished-at="2019-06-24T20:09:05Z" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.banking.TestCases.TC_LoginTest_001@4550bb58]" started-at="2019-06-24T05:34:21Z" name="teardown" finished-at="2019-06-24T05:34:25Z" duration-ms="3683" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.banking.TestCases.TC_LoginTest_001@6069db50]" started-at="2019-06-24T20:09:05Z" name="teardown" finished-at="2019-06-24T20:09:09Z" duration-ms="3738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

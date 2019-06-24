@@ -9,8 +9,10 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 
 public class BaseClass {
@@ -21,32 +23,10 @@ public class BaseClass {
 	public static Logger logger;
 	public static Properties prop;
 	
-	
-	
 		
-	/*	try {
-			
-			FileInputStream fip = new FileInputStream("./Config/config.properties");
-			prop = new Properties ();
-			prop.load(fip);
-		} catch (Exception e) {
-			System.out.println("Exception is : " + e.getMessage());
-		}*/
-		
-		
-		//ReadConfig readconfig =  new ReadConfig();
-		
-	
-		//String baseURL =readconfig.getApplicationURL();   //"http://demo.guru99.com/v3";
-		//String username = readconfig.getUserName();		//"mngr204612";
-		//String password = readconfig.getPassword();		//"amymasU";
-		//String browserName =readconfig.getBrowserName(); //"chrome"; 
-		//WebDriver driver; 
-		//Logger logger;
-	
-	
-		@BeforeClass
-		public static void setup() {
+	@Parameters ("browser")
+	@BeforeClass
+	public static void setup(String browser) {
 			
 			//*******Initiating Config Files******
 				//D:\\Selenium Project\\zBankingProject\\
@@ -66,17 +46,15 @@ public class BaseClass {
 			
 		
 			//*******Initiating Browser Launch********
-			
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "//Drivers//chromedriver.exe");
-			driver = new ChromeDriver();
-			
-			if (prop.getProperty("browserName").equalsIgnoreCase("Chrome")) {
+						//prop.getProperty("browserName").
+			if (browser.equalsIgnoreCase("Chrome")) {
 				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "//Drivers//chromedriver.exe");
 				driver = new ChromeDriver();
 			}
 				
-			else if (prop.getProperty("browserName").equalsIgnoreCase("Firefox")) {
+			else if (browser.equalsIgnoreCase("Firefox")) {
 				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+ "//Drivers//geckodriver.exe");
+				driver = new FirefoxDriver();
 			}
 			
 			driver.manage().window().maximize();
@@ -90,8 +68,8 @@ public class BaseClass {
 		
 		
 		
-		@AfterClass
-		public static void teardown() throws InterruptedException {
+	@AfterClass
+	public static void teardown() throws InterruptedException {
 			Thread.sleep(3000);
 			driver.quit();
 		}

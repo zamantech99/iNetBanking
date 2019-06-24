@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="TestNG(failed)">
+    <parameter name="browser" value="Firefox"/>
     <classes>
       <class name="com.banking.TestCases.TC_LoginTest_001">
         <methods>

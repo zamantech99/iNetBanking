@@ -1,3 +1,4 @@
 com\banking\PageObjects\LoginPage.class
 com\banking\TestCases\TC_LoginTest_001.class
 com\banking\PageObjects\BaseClass.class
+com\banking\Utilities\ReadConfig.class
