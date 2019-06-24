@@ -100,3 +100,13 @@
 2019-06-24 16:09:04,431 - BankingProject -INFO - Entered UserName
 2019-06-24 16:09:04,550 - BankingProject -INFO - Entered Password
 2019-06-24 16:09:05,593 - BankingProject -INFO - Verified Page Title
+2019-06-24 16:19:30,333 - BankingProject -INFO - URL is opened
+2019-06-24 16:19:31,817 - BankingProject -INFO - Entered UserName
+2019-06-24 16:19:31,929 - BankingProject -INFO - Entered Password
+2019-06-24 16:19:32,856 - BankingProject -INFO - Login Button is clicked
+2019-06-24 16:19:32,869 - BankingProject -INFO - Verified Page Title
+2019-06-24 16:20:24,917 - BankingProject -INFO - URL is opened
+2019-06-24 16:20:26,135 - BankingProject -INFO - Entered UserName
+2019-06-24 16:20:26,229 - BankingProject -INFO - Entered Password
+2019-06-24 16:20:27,431 - BankingProject -INFO - Login Button is clicked
+2019-06-24 16:20:27,443 - BankingProject -INFO - Verified Page Title

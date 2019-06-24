@@ -17,12 +17,12 @@ public class TC_LoginTest_001 extends BaseClass{
 		driver.get(prop.getProperty("baseURL"));	
 		loginpage= new LoginPage(driver);
 		loginpage.setUserName(prop.getProperty("username"));
-			logger.info("Entered UserName");
+			logger.info("Entered UserName.");
 		loginpage.setPassword(prop.getProperty("password"));
-			logger.info("Entered Password");
+			logger.info("Entered Password.");
 			
 		loginpage.clickLoginBtn();
-			logger.info("Login Button is clicked");
+			logger.info("Login Button is now clicked.");
 	}
 
 	
@@ -32,7 +32,7 @@ public class TC_LoginTest_001 extends BaseClass{
 		
 		if (loginPageTitle.equals("Guru99 Bank Manager HomePage")) {
 			Assert.assertTrue(true);
-				logger.info("Verified Page Title");
+				logger.info("Verified Page Title.");
 		} 
 		
 		else {
