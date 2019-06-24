@@ -8,13 +8,6 @@ import com.banking.PageObjects.LoginPage;
 
 public class TC_LoginTest_001 extends BaseClass{
 
-
-	public TC_LoginTest_001() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-
 	static LoginPage loginpage;  	
 	
 	
@@ -33,12 +26,7 @@ public class TC_LoginTest_001 extends BaseClass{
 	
 	@Test
 	public static void verifyPageTitle () {
-		String loginPageTitle = driver.getTitle();  //loginpage.verifyPageTitle(); //driver.getTitle();
-		//System.out.println(loginPageTitle);
-		//logger.info("Login Test Passed.");
-		
-		//Assert.assertEquals(loginPageTitle, "Guru99 Bank Manager HomePage");
-		//	logger.info("Verified Page Title");
+		String loginPageTitle = driver.getTitle();
 		
 		if (loginPageTitle.equals("Guru99 Bank Manager HomePage")) {
 			Assert.assertTrue(true);
