@@ -22,6 +22,7 @@ public class TC_LoginTest_001 extends BaseClass{
 			logger.info("Entered Password");
 			
 		loginpage.clickLoginBtn();
+			logger.info("Login Button is clicked");
 	}
 
 	
